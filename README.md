@@ -7,26 +7,26 @@
 | 🏭 Creational patterns   | | | |
 | Abstract factory         | | | |
 | Builder                  | | | |
-| Factory method           | | | |
+| Factory method           | `document.createElement`  | `crypto.createHash` | |
 | Prototype                | | | |
-| Singleton                | | | |
+| Singleton                | iife, esm export | `module.exports` | |
 | 🤝 Structural patterns   | | | |
-| Adapter                  | | | |
+| Adapter                  | | `util.promisify` | |
 | Bridge                   | | | |
 | Composite                | | | |
 | Decorator                | | | |
 | Facade                   | | | |
 | Flyweight                | | | |
-| Proxy                    | | | |
+| Proxy                    | `Proxy` | | |
 | ⚡ Behavioral patterns   | | | |
-| Chain of responsibility  | | | |
+| Chain of responsibility  | | `middleware` | |
 | Command                  | | | |
 | Interpreter              | | | |
-| Iterator                 | | | |
+| Iterator                 | `Symbol.iterator` / async iterator | | |
 | Mediator                 | | | |
 | Memento                  | | | |
-| Observer                 | | | |
+| Observer                 | `EventTarget` | `EventEmitter` | |
 | State                    | | | |
-| Strategy                 | | | |
+| Strategy                 | | `Map<key: function>` | |
 | Template method          | | | |
 | Visitor                  | | | |
