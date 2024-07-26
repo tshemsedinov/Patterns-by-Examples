@@ -8,7 +8,7 @@
 | Abstract factory        | | | | |
 | Builder                 | Chaining | | stream.pipe.on | Query builder |
 | Factory method          | | `document.createElement`  | `crypto.createHash` | |
-| Prototype               | | | | |
+| Prototype               | Class with private fields and `clone` method, `JSON.stringify/parse`, `structuredClone`, `Object.assign` + `Object.setPrototypeOf` | | `node:v8`, `serialize`, `deserialize` | |
 | Singleton               | IIFE, modules, `global`, `window` | esm/cjs modules | `module.exports` | |
 | 🤝 Structural           | | | | |
 | Adapter                 | promisify / callbackify | `fetch` polyfill around `XMLHttpRequest` | `util.promisify` | |
