@@ -2,11 +2,11 @@
 
 > Patterns for JavaScript, Node.js, and Async programming by platform native examples
 
-| Pattern                 | Pure JavaScript      | Web API example         | Node.js example    | Domain example    |
-| ----------------------- | -------------------- | ----------------------- | ------------------ | ----------------- |
+| Pattern                 | Pure JavaScript  | Web API  | Node.js  | Domain  |
+| ----------------------- | ---------------- | -------- | -------- | ------- |
 | 🏭 Creational           | | | | |
 | Abstract factory        | | | | |
-| Builder                 | | | | |
+| Builder                 | Chaining | | stream.pipe.on | Query builder |
 | Factory method          | | `document.createElement`  | `crypto.createHash` | |
 | Prototype               | | | | |
 | Singleton               | IIFE, modules, `global`, `window` | esm/cjs modules | `module.exports` | |
