@@ -13,7 +13,7 @@
 | 🤝 Structural           | | | |
 | Adapter                 | promisify / callbackify | `fetch` polyfill around `XMLHttpRequest` | `util.promisify` |
 | Bridge                  | | | |
-| Composite               | | | |
+| Composite               | Hierarchical strictures, for example goods in nested categories | DOM elements | |
 | Decorator               | Decorator syntax, boxing, wrappers | | |
 | Facade                  |  | `document.querySelector` | `http2.createSecureServer` |
 | Flyweight               | Object pools | | Connection pools |
